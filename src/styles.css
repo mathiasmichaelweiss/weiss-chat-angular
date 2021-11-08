@@ -1,1 +1,152 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 15px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  font-family: sans-serif;
+  font-weight: 300;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/*__________________________________________________*/
+
+.container {
+  position: relative;
+  z-index: 1000;
+  height: 100%;
+  width: 100%;
+}
+
+.container .chat-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  height: 70%;
+  max-width: 620px;
+  min-width: 620px;
+  background-color: #fff;
+  box-shadow: 0px 0px 15px rgba(37, 37, 37, 0.1);
+  display: flex;
+}
+
+.container .chat-wrapper .chat-header-window {
+  width: 65%;
+  height: 100%;
+}
+
+.circle {
+  width: 40px;
+  height: 40px;
+  background-color: #5bd8d0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border-radius: 100%;
+  margin: 0 1rem;
+}
+
+button {
+  padding: 0.5rem;
+  background-color: #fff;
+  color: #2d2d2d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signIn {
+  width: 25px;
+  height: 25px;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 0;
+  color: #2d2d2d;
+}
+
+.signIn svg {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  transition: fill 0.5s;
+}
+
+.signIn svg:hover {
+  fill: #5bd8d0;
+}

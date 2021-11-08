@@ -1,0 +1,89 @@
+/*!********************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].rules[0].oneOf[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].rules[0].oneOf[1].use[2]!./src/styles.css ***!
+  \********************************************************************************************************************************************************************************************************/
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,*:before,*after{
+  box-sizing: border-box
+}
+
+:focus,:active{outline: none;}
+
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 15px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  font-family: sans-serif;
+  font-weight: 300;
+}
+
+input,button,textarea{font-family: inherit;}
+
+input::-ms-clear{display: none;}
+
+button{cursor:pointer;}
+
+button::-moz-focus-inner {padding: 0;border:0;}
+
+a,a:visited{text-decoration: none;}
+
+a:hover{text-decoration: none;}
+
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight:400;}
+
+/*__________________________________________________*/
+
+.container {
+  position: relative;
+  z-index: 1000;
+  height: 100%;
+  width: 100%;
+}
+
+.container .chat-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 900;
+  width: 70%;
+  height: 70%;
+  background-color: #fff;
+  box-shadow: 0px 0px 15px rgba(37,37,37, 0.10);
+  display: flex;
+}
+
+.container .chat-wrapper .chat-header-window{
+  width: 65%;
+  height: 100%;
+}
+
+.circle {
+  width: 40px;
+  height: 40px;
+  background-color: #5bd8d0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border-radius: 100%;
+  margin: 0 1rem;
+}
+
+
+/*# sourceMappingURL=styles.css.map*/

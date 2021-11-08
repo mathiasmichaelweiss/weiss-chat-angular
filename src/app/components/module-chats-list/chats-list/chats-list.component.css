@@ -1,0 +1,31 @@
+.chats-list-container {
+  height: 100%;
+  background-color: inherit;
+}
+
+.chats-list-container .chats-list {
+  height: 85%;
+  background-color: #fff;
+  overflow: scroll;
+}
+
+.chats-list-container .chats-list .chat-item-wrapper {
+  height: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-content: center;
+  cursor: pointer;
+}
+
+.chat-item-wrapper:hover{
+  background-color: #eee;
+}
+
+.chat-item-wrapper .active {
+  background-color: #f9f9f9;
+}
+
+.chats-list-container .chats-list .chat-list-wrapper::-webkit-scrollbar {
+  width: 0px;
+}

@@ -1,0 +1,11 @@
+<div class="chats-list-container">
+  <app-chats-list-header> </app-chats-list-header>
+  <div class="chats-list">
+    <app-chat-item
+      class="chat-item-wrapper"
+      *ngFor="let user of users; index as idx"
+      [user]="user"
+      [idx]="idx"
+    ></app-chat-item>
+  </div>
+</div>

@@ -1,0 +1,33 @@
+.message {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 70%;
+  padding: 0.5rem;
+  margin: 1rem;
+  background-color: #2d2d2d;
+}
+
+.message .name {
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.message .name,
+.time {
+  width: 50%;
+}
+
+.message .time {
+  text-align: right;
+}
+
+.message .text {
+  word-break: break-all;
+}
+
+.message.answer {
+  position: relative;
+  left: 19%;
+  background-color: #579c6d;
+}

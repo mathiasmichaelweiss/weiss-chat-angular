@@ -1,0 +1,9 @@
+<div [ngClass]="{ message: true, answer: isAnswer }">
+  <div class="name">{{ message.user.name }}</div>
+  <div class="time">
+    {{ message.timestamp | date: "dd.MM.yyyy HH:mm" }}
+  </div>
+  <p class="text">
+    {{ message.message }}
+  </p>
+</div>

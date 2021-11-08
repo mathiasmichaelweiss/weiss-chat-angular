@@ -68,10 +68,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "weiss-chat:build:production"
+              "browserTarget": "weiss-chat:build:production",
             },
             "development": {
-              "browserTarget": "weiss-chat:build:development"
+              "browserTarget": "weiss-chat:build:development",
             }
           },
           "defaultConfiguration": "development"

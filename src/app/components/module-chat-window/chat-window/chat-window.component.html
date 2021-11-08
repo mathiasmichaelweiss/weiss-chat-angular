@@ -1,0 +1,13 @@
+<div class="chat-window">
+  <div class="chat-window-wrapper">
+    <div class="messages-window">
+      <app-user-message
+        *ngFor="let message of allMessages"
+        [message]="message"
+        [myUser]="myUser"
+        style="width: 100%;"
+      ></app-user-message>
+    </div>
+    <app-chat-form></app-chat-form>
+  </div>
+</div>

@@ -1,0 +1,20 @@
+<div class="chat-item" >
+  <div
+    *ngIf="idx % 2 === 0"
+    class="circle"
+    style="background: #579c6d"
+  >
+    {{user.name[0].toUpperCase()}}
+  </div>
+  <div
+    *ngIf="idx % 2 !== 0"
+    class="circle"
+  >
+    {{user.name[0].toUpperCase()}}
+  </div>
+  <div class="name-message">
+    <div class="user-name">{{user.name}}</div>
+  </div>
+</div>
+
+
